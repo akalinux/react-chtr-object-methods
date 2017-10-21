@@ -1,0 +1,15 @@
+*.swp
+*.log
+*.gz
+*.rpm
+RPM_NAME
+*.log
+*.pid
+*.LCK
+.project
+yarn.lock
+yarn-error.log
+public/site.js
+.includepath
+.settings/*
+node_modules/*
