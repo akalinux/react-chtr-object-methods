@@ -1,6 +1,5 @@
 'use strict';
 
-import 'babel-polyfill';
 /**
  * @param {any} src
  * @param {any} dstObj

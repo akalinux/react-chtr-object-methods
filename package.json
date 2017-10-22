@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/akalinux/react-chtr-object-methods#readme",
   "dependencies": {
-    "babel-polyfill": "6.x",
     "babel-preset-env": "1.x",
     "babel-register": "6.x",
     "mocha": "4.x",
