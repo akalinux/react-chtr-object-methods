@@ -1,0 +1,36 @@
+{
+  "name": "react-chtr-object-methods",
+  "version": "1.0.0",
+  "description": "Data Structure management functions for react modules",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "mocha --require babel-register test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akalinux/react-chtr-object-methods.git"
+  },
+  "keywords": [
+    "react",
+    "data",
+    "structure",
+    "clone",
+    "merge",
+    "copy",
+    "diff"
+  ],
+  "author": "Michael Shipper <akalinux@cpan.org> (https://github.com/akalinux/react-chtr-object-methods/wiki)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akalinux/react-chtr-object-methods/issues"
+  },
+  "homepage": "https://github.com/akalinux/react-chtr-object-methods#readme",
+  "dependencies": {
+    "babel-polyfill": "6.x",
+    "babel-preset-es2015": "^6.x",
+    "babel-register": "6.x",
+    "mocha": "4.x",
+    "react": "16.x",
+    "unit.js": "^2.0.0"
+  }
+}
