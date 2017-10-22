@@ -17,7 +17,7 @@ import { cloneObject, mergeObjects, objectsDiffer, cloneProps  } 'react-chtr-obj
 
 ### Methods
 
-* result=mergeObjects(srcObj,dstobj)
+#### result=mergeObjects(srcObj,dstobj)
 
 ```
  @param {any} srcObj
@@ -54,7 +54,7 @@ The ```result``` object would be:
       e: [0,0,0]
 };
 ```
-* result=cloneProps(props,exclude);
+#### result=cloneProps(props,exclude);
 
 ```
   @param {react props object} props
@@ -63,12 +63,10 @@ The ```result``` object would be:
 
 Makes a recursive copy of primitives and objects of type Array and Object, all other objects are copied via reference.  The ```exclude``` array is optional, it is used to define properties of props that are to be excluded, by default 'root' is excluded.
 
-* result=cloneObject(src)
+#### result=cloneObject(src)
 
 ```
   @param {src} object to be copied
 ````
 
 Makes a recursive copy of primitives and objects of type Array and Object, all other objects are copied via reference. 
-
-* result=cloneObject(src)
