@@ -70,3 +70,13 @@ Makes a recursive copy of primitives and objects of type Array and Object, all o
 ````
 
 Makes a recursive copy of primitives and objects of type Array and Object, all other objects are copied via reference. 
+
+
+##### boolean=objectsDiffer(src,dst)
+
+```
+  @param {any} src
+  @param {any} dst
+```
+
+Returns true when 2 objects differ.
