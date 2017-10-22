@@ -1,6 +1,6 @@
 {
   "name": "react-chtr-object-methods",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Data Structure management functions for react modules",
   "main": "index.jsx",
   "scripts": {
