@@ -1,4 +1,4 @@
-# Chtr Shared Static Data Functions
+# Charter Telemetry-dev Shared Static Data Functions for React
 
 This npm package is a collection of static data manipulation functions.
 
@@ -17,14 +17,14 @@ import { cloneObject, mergeObjects, objectsDiffer, cloneProps  } 'react-chtr-obj
 
 ### Methods
 
-* mergeObjects
+* result=mergeObjects(srcObj,dstobj)
 
 ```
- @param {any} src
+ @param {any} srcObj
  @param {any} dstObj
 ````
 
-Only merges elements that exist in target and data if they are of the same object type.
+Returns a recursive merge, which favors the structure of ```srcObject``` and the contents of ```dstObj```.
  
 Example:
  
@@ -54,4 +54,21 @@ The ```result``` object would be:
       e: [0,0,0]
 };
 ```
+* result=cloneProps(props,exclude);
 
+```
+  @param {react props object} props
+  @param {Array} exclude 
+````
+
+Makes a recursive copy of primitives and objects of type Array and Object, all other objects are copied via reference.  The ```exclude``` array is optional, it is used to define properties of props that are to be excluded, by default 'root' is excluded.
+
+* result=cloneObject(src)
+
+```
+  @param {src} object to be copied
+````
+
+Makes a recursive copy of primitives and objects of type Array and Object, all other objects are copied via reference. 
+
+* result=cloneObject(src)
