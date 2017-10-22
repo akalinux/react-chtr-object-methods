@@ -1,4 +1,4 @@
-# Charter Telemetry-dev Shared Static Data Functions for React
+# Chtr Shared Static Data Functions for React
 
 This npm package is a collection of static data manipulation functions.
 
