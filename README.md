@@ -12,7 +12,7 @@ yarn add react-chtr-object-methods
 ## Usage
 
 ```
-import { cloneObject, mergeObjects, objectsDiffer, cloneProps  } 'react-chtr-object-methods';
+import { cloneObject, mergeObjects, objectsDiffer, cloneProps  } from 'react-chtr-object-methods';
 ```
 
 ### Methods
