@@ -1,41 +1,43 @@
 {
-	"name": "react-chtr-object-methods",
-	"version": "1.0.4",
-	"description": "Data Structure management functions for react modules",
-	"main": "index.js",
-	"scripts": {
-		"test": "mocha --require babel-register test/*",
-		"build" : "babel index.jsx -s inline --compact true -o index.js --minified",
-		"prepublish": "npm run build && npm run test"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/akalinux/react-chtr-object-methods.git"
-	},
-	"files": ["index.js"],
-	"keywords": [
-		"react",
-		"data",
-		"structure",
-		"clone",
-		"merge",
-		"copy",
-		"diff"
-	],
-	"author": "Michael Shipper <akalinux@cpan.org> (https://github.com/akalinux/react-chtr-object-methods#readme)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/akalinux/react-chtr-object-methods/issues"
-	},
-	"homepage": "https://github.com/akalinux/react-chtr-object-methods#readme",
-	"dependencies": {
-		"react": "16.x"
-	},
-	"devDependencies": {
-		"babel-cli": "^6.26.0",
-		"babel-preset-env": "1.x",
-		"babel-register": "6.x",
-		"mocha": "4.x",
-		"unit.js": "2.x"
-	}
+  "name": "react-chtr-object-methods",
+  "version": "1.0.5",
+  "description": "Data Structure management functions for react modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register test/*",
+    "build": "babel index.jsx -s inline --compact true -o index.js --minified",
+    "prepublish": "npm run build && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akalinux/react-chtr-object-methods.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "react",
+    "data",
+    "structure",
+    "clone",
+    "merge",
+    "copy",
+    "diff"
+  ],
+  "author": "Michael Shipper <akalinux@cpan.org> (https://github.com/akalinux/react-chtr-object-methods#readme)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akalinux/react-chtr-object-methods/issues"
+  },
+  "homepage": "https://github.com/akalinux/react-chtr-object-methods#readme",
+  "dependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "1.x",
+    "babel-register": "6.x",
+    "mocha": "4.x",
+    "unit.js": "2.x"
+  }
 }
