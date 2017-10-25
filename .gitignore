@@ -12,4 +12,5 @@ yarn-error.log
 public/site.js
 .includepath
 .settings/*
+index.js
 node_modules/*
